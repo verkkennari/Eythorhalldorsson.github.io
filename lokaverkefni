@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lokaverkefni</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Heim á forsíðu</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Verkefni</a></li>
+							<li><a href="generic.html">Um mig</a></li>
+							<li><a href="elements.html"></a></li>
+							<li class="active"><a href="lokaverkefni.html">Lokaverkefni</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">Apríl 18, 2022</span>
+									<h1>Lokaverkefni</h1>
+									<p><br />
+			
+								<p>Lokaverkefnið er hugsað sem hópaverkefni, en þar sem ég er á austurlandinu og með góðan aðgang að fablab austurlands fékk ég að vinna verkefnið sem einstaklingsverkefni. verkefnið sem ég valdi mér var að teikna vask í fuision 360 og fræsa í shopbot fræsaranum úr timbri í 2.5D. Enn þurfti ég því að sjá um allt ferlið sjálfur, skipulagningu, teikning í fuison, hönnun í v-carve, líma saman efni, fræsingu, heimasíðugerð og gerð myndbands.
+                <br />Síðan þá hefur mig langað til að hanna sjálfur og fræsa vask sem er í 2.5D eða eins og skál í laginu. og varð því loks 
+                </p>
+								
+								<br />
+								<br />
+								<hr />
+								<header class="major">
+									<h3>Hugmyndin</h3>
+								</header>
+                <p>Um 2018 var ég að fylgjast með aðila í shobbot fræsaranum og datt þá í hug að gera vask úr timbri. Þar sem ég hafði ekki reynslu á fusion eða fræsaran teiknaði ég hann í autocad í mögum lögum og fékk annan aðila til að fræsa stykkin út fyrir mig. Sá vaksur var ekki eins og skál í laginu eins og myndirnar sýna heldur voru beinar hliðar að framan og aftan. Til að vera vaskin vatnsheldan notaði ég epoxy og er buinn að vera í noktun núna í um 4 ár. <p/>
+								<br />
+								<br />
+								<header class="major">
+									<h3>Teikning í Fusion 360</h3>
+								</header>
+								<br />
+								<br />
+								<p><span class="image left"><img src="images/vasip.png" alt="" /></span>Fyrst var að ákveða stærðina á vasanum ég setti það upp í parameter svo hægt væri að breyta honum að vild seinna meir. </p>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<p><span class="image left"><img src="images/vasi1.png" alt="" /></span>Botnin er teiknaður út frá miðju vinnusvæðisins til að einfalda staðsetningu á efri hringjum.</p>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<p><span class="image left"><img src="images/vasi05.png" alt="" /></span> Þegar botnin var klár er að hægri smella á hann og gera "offset plane" fjarlægðin hét í parameter "hæðmiðja" sem var 40mm. og þvermálið "miðja" var einnig 40mm. Efsti hringurinn er tekin í offset plane frá neðsta hring með parameternum "hæð" eða 80mm og Þvermál "toppur" =90mm.</p>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<p><span class="image left"><img src="images/vasi2.png" alt="" /></span> Til að gera hringina að formi nota ég "create - loft" og vel hringina þrjá og þá birtist formið.</p>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<p><span class="image left"><img src="images/vasi3.png" alt="" /></span>Nú er stykkið massíft og fer ég næst í "modify - shell" vel efsta yfirborðið og þá er hægt að velja veggþyktina á forminu. í þessum vasa hafði ég veggþyktina 2mm. stykkið er nú tilbúið og exportað sem stl. skrá og flutt yfir í ultimaker cura forrit til að gera klárt fyrir 3d prentun. </p>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<p><span class="image left"><img src="images/vasi77.png" alt="" width="550" height="400" /></span> Vasinn er komin í cura, stillingarnar var á extra fine, þar sem veggþykktin var einungis 2mm hafði ég 100% fyllingu, ekkert support þurfti en hafði samt auka snertiflöt neðst þar sem prentarinn bætir við þunnum fleti neðst til að auka stöðuleika og festingu við prentaran. 
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<header class="major">
+									<h3>3D skönnun</h3>
+								</header>
+								<p>Hér í fablab austurlandi er aðeins einn skanni eða xbox 360. Ég prófaði að skanna strákinn minn og prenta hann út, skannin er fremur grófur og er útkoman svoldið óskýr. Ferlið var þægilegt ég stillti honum upp í 1m fjarlægð þar sem hann sat á snúnings stól og snéri hann sér í hringi þangað til að skönnun var tilbúinn. Modelið vistað sem slt file sett upp í cura. Með stillingarnar prófaði ég að nota ekkert support, 40% fyllingu og hafði á extra fine stillingu og kom það ágætlega út en það mætti vera smá support undir hökunni. <p/>
+								<p><span class="image left"><img src="images/kall2.png" alt="" width="550" height="400" /><p/>
+								<p><span class="image left"><img src="images/snaethor.JPG" alt=""/></p>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								
+								
+								<header class="major">
+									<h3>Önnur verkefni sem ég gerði á önninni
+									<br/>
+										haldfang</h3>
+								</header>
+								<p>Ég teiknaði haldfang eða einskonar vængjaró sem passar fyrir 19mm ró, haldfangið prófaði ég að nota á hverfistein og passaði þetta allt mjög vel. róin var það passleg að það þurfti að banka hana létt í haldfangið með hamri og ekkert lím, haldfangið var passlega stórt svo að það náðist að herða nægilega vel með handafli. Ég á eflaust eftir að prófa fleyri útgáfur að þessu á næstunni. </p>
+								<p><span class="image left"><img src="images/ro.png" alt="" width="550" height="400" />
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<p><span class="image left"><img src="images/ro1.png" alt="" width="550" height="400" /><p/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<p><span class="image left"><img src="images/ró222.PNG" alt="" /></p>
+								<br/>
+								<br/>
+								<br/>	
+								<br/>
+								<br/>
+								<br/>
+								<hr />
+								<header class="major">
+									<h3>fætur á skjaldböku</h3>
+								</header>	
+								<p>Þessa önnina er ég einnig í áfanga sem heitir hönnun og smíði leikfanga, eitt verkefnið var að smíða hoppudýr. dýrið sjálft er úr frauði sem er tálgað til og málað og ákvað ég að gera skjaldböku. inni í dýrinu er mótor með svinghjóli sem myndar víbring sem lætur dýrið hoppa um. þar sem teinarnir eru svo grannir ákvað ég að hanna lappir fyrir hana í fusion og 3D prenta. <p/>
+								<p><span class="image left"><img src="images/lopp22.png" alt="" width="550" height="400" /><p/>
+								<p><span class="image left"><img src="images/lopp1.png" alt="" width="550" height="400" /><p/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								</section>
+							
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Nafn</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Netfang</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Skilaboð</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Senda skilaboð" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Heimilisfang</h3>
+								<p>Gilsbakki 10<br />
+								740 Neskaupstaður</p>
+							</section>
+							<section>
+								<h3>Sími</h3>
+								<p><a href="#">8460213</a></p>
+							</section>
+							<section>
+								<h3>Netfang</h3>
+								<p><a href="#">eyh19@hi.is</a></p>
+							</section>
+							<section>
+								<h3>Samfélagsm.</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
